@@ -207,22 +207,31 @@ Encryption System
 The tool uses a custom RayCrypt algorithm that provides:
 
 · XOR-based byte manipulation
+
 · Base64 encoding for safe storage
+
 · Key-based encryption/decryption
+
 · Protection against common attacks
 
 Data Storage
 
 · All tokens stored in encrypted accounts.dat file
+
 · Master key stored separately in master.key
+
 · File permissions automatically secured (600 on Unix systems)
+
 · No internet connectivity required for operation
 
 API Integration
 
 · Uses Discord's official API v10
+
 · Validates tokens against Discord's servers
+
 · Fetches user profile information securely
+
 · Respects Discord's rate limits
 
 <br>
